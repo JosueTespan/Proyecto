@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo3.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header id="cajacabecera">
+        <div  id="cabacera">
+            <div class="logo">
+               <a href="index.html">
+                    <img src="img/luffy.jpeg"  alt="Porque no">
+               </a>               
+            </div>
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu" class="fa-solid fa-bars" id="mmovil"></label>
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="formulario.html"><i class="fa-solid fa-house-chimney"></i>NOSOTROS</a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-solid fa-lightbulb"></i>SERVICIOS</a>
+                    </li>
+                    <li>
+                        <a href="proyecto.html"><i class="fa-solid fa-cart-flatbed-suitcase"></i>PROYECTOS</a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-solid fa-phone"></i>CONTACTOS</a>
+                    </li>                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <h2>TRABAJA CON NOSOTROS</h2>
+        <h3>POSTÚLATE</h3>
+
+        <h3>Información personal</h3>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+                <label for="estado_civil">Estado civil:</label>
+                <input type="text" id="estado_civil" name="estado_civil" required>
+            </div>
+            <div class="form-group">
+                <label for="lugar_nacimiento">Lugar de nacimiento:</label>
+                <input type="text" id="lugar_nacimiento" name="lugar_nacimiento" required>
+                <label for="dui">DUI:</label>
+                <input type="text" id="dui" name="dui" required>
+            </div>
+            <div class="form-group">
+                <label for="nit">NIT:</label>
+                <input type="text" id="nit" name="nit" required>
+            </div>
+
+        <h3>Contactos</h3>
+        <div class="form-group">
+            <label for="celular">Celular:</label>
+            <input type="tel" id="celular" name="celular" required>
+            <label for="telefono_fijo">Teléfono fijo:</label>
+            <input type="tel" id="telefono_fijo" name="telefono_fijo">
+        </div>
+        <div class="form-group">
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+            <label for="direccion">Dirección de residencia:</label>
+            <input type="text" id="direccion" name="direccion" required>
+        </div>
+
+        <h3>Estudio de referencia</h3>
+        <div class="education">
+            <div class="form-group">
+                <label for="basica">Educación básica:</label>
+                <select id="basica" name="basica">
+                    <option value="completo">Completo</option>
+                    <option value="incompleto">Incompleto</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="bachillerato">Bachillerato:</label>
+                <select id="bachillerato" name="bachillerato">
+                    <option value="completo">Completo</option>
+                    <option value="incompleto">Incompleto</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="universidad">Universidad:</label>
+                <select id="universidad" name="universidad">
+                    <option value="completo">Completo</option>
+                    <option value="incompleto">Incompleto</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="otras_formaciones">Otras formaciones:</label>
+                <textarea id="otras_formaciones" name="otras_formaciones" rows="4"></textarea>
+            </div>
+        </div>
+
+        <h3>Información laboral</h3>
+        <div class="form-group">
+            <label for="ultima_posicion">Última posición de trabajo:</label>
+            <input type="text" id="ultima_posicion" name="ultima_posicion" required>
+        </div>
+        <div class="form-group">
+            <label for="experiencia_laboral">Experiencia laboral:</label>
+            <input type="text" id="experiencia_laboral" name="experiencia_laboral" required>
+        </div>
+        <div class="form-group">
+            <label for="adjuntar_archivos">Adjuntar archivos:</label>
+            <input type="file" id="adjuntar_archivos" name="adjuntar_archivos">
+        </div>
+        <button type="submit">Enviar formulario</button>
+    </form>
+</div>
+</body>
+</html>

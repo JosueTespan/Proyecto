@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo2.css">
+    <title>Cotizacion</title>
+</head>
+<body>
+    <header id="cajacabecera">
+        <div  id="cabacera">
+            <div class="logo">
+               <a href="index.html">
+                    <img src="img/luffy.jpeg"  alt="Porque no">
+               </a>               
+            </div>
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu" class="fa-solid fa-bars" id="mmovil"></label>
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="formulario.html"><i class="fa-solid fa-house-chimney"></i>NOSOTROS</a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-solid fa-lightbulb"></i>SERVICIOS</a>
+                    </li>
+                    <li>
+                        <a href="proyecto.html"><i class="fa-solid fa-cart-flatbed-suitcase"></i>PROYECTOS</a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-solid fa-phone"></i>CONTACTOS</a>
+                    </li>                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Realiza tu cotización</h2>
+        <h3>Rellene el formulario</h3>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="compania">Compañía:</label>
+                <input type="text" id="compania" name="compania" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+            </div>
+            <div class="form-group">
+                <label for="informacion">Información adicional:</label>
+                <textarea id="informacion" name="informacion" rows="4"></textarea>
+            </div>
+            <button type="submit">Cotizar</button>
+        </form>
+    </div>
+</body>
+</html>
